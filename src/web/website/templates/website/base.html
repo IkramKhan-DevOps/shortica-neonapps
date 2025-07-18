@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Namespace-IT">
+    <meta name="description" content="--">
+    <!-- ======== Page title ============ -->
+    <title>Reelteve - Short Reels</title>
+    <link rel="shortcut icon" href="{% static 'website/img/logo/logo.png' %}">
+    <link rel="stylesheet" href="{% static 'website/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/meanmenu.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/color.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/main.css' %}">
+</head>
+<body class="body-bg">
+
+<!--<< Mouse Cursor Start >>-->
+<div class="mouse-cursor cursor-outer"></div>
+<div class="mouse-cursor cursor-inner"></div>
+
+<!-- Back To Top start -->
+<button id="back-top" class="back-to-top">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+{% include 'website/include/header.html' %}
+{% block content %}
+
+{% endblock content %}
+{% include 'website/include/footer.html' %}
+
+
+<!--<< All JS Plugins >>-->
+<script src="{% static 'website/js/jquery-3.7.1.min.js' %}"></script>
+<script src="{% static 'website/js/viewport.jquery.js' %}"></script>
+<script src="{% static 'website/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'website/js/jquery.nice-select.min.js' %}"></script>
+<script src="{% static 'website/js/jquery.waypoints.js' %}"></script>
+<script src="{% static 'website/js/jquery.counterup.min.js' %}"></script>
+<script src="{% static 'website/js/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'website/js/jquery.meanmenu.min.js' %}"></script>
+<script src="{% static 'website/js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'website/js/wow.min.js' %}"></script>
+<script src="{% static 'website/js/main.js' %}"></script>
+</body>
+</html>

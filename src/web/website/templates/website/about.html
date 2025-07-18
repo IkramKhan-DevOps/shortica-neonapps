@@ -1,0 +1,272 @@
+{% extends 'website/base.html' %}
+{% load static %}
+{% block content %}
+    <section class="about-section fix section-padding mt-4">
+        <div class="container mt-4">
+            <div class="about-wrapper-2">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="about-header-items">
+                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Careers at Stremker</h2>
+                            <div class="counter-area">
+                                <div class="counter-item wow fadeInUp" data-wow-delay=".3s">
+                                    <h2><span class="count">250</span>+</h2>
+                                    <p>Team member</p>
+                                </div>
+                                <div class="counter-item wow fadeInUp" data-wow-delay=".5s">
+                                    <h2><span class="count">850</span>+</h2>
+                                    <p>Project Done</p>
+                                </div>
+                                <div class="counter-item wow fadeInUp" data-wow-delay=".7s">
+                                    <h2><span class="count">360</span>+</h2>
+                                    <p>Happy Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-image wow fadeInUp" data-wow-delay=".4s">
+                            <img src="{% static 'website/img/about/01.jpg' %}" alt="img">
+                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                <i class="fa-duotone fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-xl-6">
+                                <div class="about-content">
+                                    <h3 class="wow fadeInUp" data-wow-delay=".3s">Our Story</h3>
+                                    <p class="pb-3 wow fadeInUp" data-wow-delay=".5s">Nam posuere mauris enim, quis
+                                        pretium elit placerat id Fusce egestas nisi vel ipsum vehicula facilisis In
+                                        pulvinar imperdiet venenatis Class aptent taciti sociosqu ad litora torquent per
+                                        conubia nostra, per inceptos himenaeos. Donec eu pulvinar lorem. </p>
+                                    <p class="wow fadeInUp" data-wow-delay=".7s"> Fusce egestas nisi vel ipsum vehicula
+                                        facilisis. In pulvinar imperdiet venenatis. Class aptent taciti sociosqu ad
+                                        litora torquent per conubia nostra, per inceptos himenaeos. Donec eu </p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="progress-area">
+                                    <div class="progress-wrap">
+                                        <div class="pro-items wow fadeInUp" data-wow-delay=".3s">
+                                            <div class="pro-head">
+                                                <h6 class="title">
+                                                    Branding Design
+                                                </h6>
+                                                <span class="point">
+                                                        86%
+                                                    </span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-value"></div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-items wow fadeInUp" data-wow-delay=".5s">
+                                            <div class="pro-head">
+                                                <h6 class="title">
+                                                    Business
+                                                </h6>
+                                                <span class="point">
+                                                        96%
+                                                    </span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-value style-two"></div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-items wow fadeInUp" data-wow-delay=".7s">
+                                            <div class="pro-head">
+                                                <h6 class="title">
+                                                    Web Design
+                                                </h6>
+                                                <span class="point">
+                                                        95%
+                                                    </span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-value style-three"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Section Start -->
+    <div class="brand-section fix section-padding pt-0">
+        <div class="container">
+            <div class="brand-wrapper">
+                <div class="swiper brand-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="{% static 'website/img/brand/01.png' %}" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="{% static 'website/img/brand/02.png' %}" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="{% static 'website/img/brand/03.png' %}" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="{% static 'website/img/brand/04.png' %}" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="{% static 'website/img/brand/05.png' %}" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- team Section Start -->
+    <section class="team-section section-padding pt-0">
+        <div class="container">
+            <div class="section-title mt-0">
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">Creative Artist</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="team-card-item">
+                        <div class="team-image">
+                            <img src="{% static 'website/img/team/team-1.png' %}" alt="img">
+                            <div class="social-icon d-flex align-items-center">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <p>Programmer</p>
+                            <h3>Leslie Alexander</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="team-card-item">
+                        <div class="team-image">
+                            <img src="{% static 'website/img/team/team-2.png' %}" alt="img">
+                            <div class="social-icon d-flex align-items-center">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <p>UI/UX designer</p>
+                            <h3>Darlene Robertson</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="team-card-item">
+                        <div class="team-image">
+                            <img src="{% static 'website/img/team/team-3.png' %}" alt="img">
+                            <div class="social-icon d-flex align-items-center">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <p>Web developer</p>
+                            <h3>Marvin McKinney</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="team-card-item">
+                        <div class="team-image">
+                            <img src="{% static 'website/img/team/team-4.png' %}" alt="img">
+                            <div class="social-icon d-flex align-items-center">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <p>CEO</p>
+                            <h3>Esther Howard</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section Start -->
+    <section class="awards-section fix section-padding pt-0">
+        <div class="container">
+            <div class="awards-wrapper">
+                <div class="row g-4 justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="awards-content">
+                            <h2 class="wow fadeInUp" data-wow-delay=".3s">awards</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".5s">
+                                In rhoncus velit non varius consequat. Etiam efficitur rutrum orci id is bibendum. Fusce
+                                rutrum dapibus felis, eu feugiat lacus ultricies sed. Nulla ut dapibus eros nec dictum
+                                ipsum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="awards-year">
+                            <div class="year-text wow fadeInUp" data-wow-delay=".3s">2016</div>
+                            <div class="year-text color-2 wow fadeInUp" data-wow-delay=".5s">2015</div>
+                            <div class="year-text wow fadeInUp" data-wow-delay=".7s">2014</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counter Section Start -->
+    <section class="counter-section fix">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="counter-items text-center">
+                        <h2><span class="count">250</span>+</h2>
+                        <p class="text-white">Team member</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="counter-items text-center">
+                        <h2><span class="count">850</span>+</h2>
+                        <p class="text-white">Project Done</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="counter-items text-center">
+                        <h2><span class="count">360</span>+</h2>
+                        <p class="text-white">Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="counter-items text-center">
+                        <h2><span class="count">160</span>+</h2>
+                        <p class="text-white">Winning Award</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock content %}

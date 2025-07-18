@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="page-title-box">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="mb-0 font-size-24">
+                                Season: {% if object %}{{ object }}{% else %}Form{% endif %}
+                            </p>
+                        </div>
+                        <div class="col-sm-6 text-right">
+
+                            {% if season %}
+                                <button type="button" class="btn btn-primary mb-1"
+                                        onclick="window.location.href='{% url 'admins:drama-detail' season.series.pk %}'">
+                                    <i class="fa fa-arrow-left"></i> Back to {{ season.series }}
+                                </button>
+                            {% else %}
+                                <button type="button" class="btn btn-primary mb-1"
+                                        onclick="window.location.href='{% url 'admins:drama-detail' object.pk %}'">
+                                    <i class="fa fa-arrow-left"></i> Back to {{ object }}
+                                </button>
+                            {% endif %}
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-12 col-sm-12">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <form method="post" novalidate>
+                            {% csrf_token %}
+                            {{ form.non_field_errors }}
+                            {{ form|crispy }}
+
+                            <button type="submit" class="btn btn-primary">Confirm</button>
+                            <br>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+{% endblock %}
+
+

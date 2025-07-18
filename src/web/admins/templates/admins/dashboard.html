@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% load humanize %}
+
+{% block subtitle %} {{ request.user }} Dashboard {% endblock %}
+
+{% block content %}
+
+    {# INITIAL CONTENT #}
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card shadow-lg rounded-lgmini-stats-wid">
+                <div class="card-body">
+                    <div class="media">
+                        <div class="mr-3 align-self-center">
+                            <i class="bx bx-user-check h2 text-secondary mb-0"></i>
+                        </div>
+                        <div class="media-body">
+                            <p class="text-muted mb-2">REGISTRATIONS</p>
+                            <h5 class="mb-0">
+                                00
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card shadow-lg rounded-lgmini-stats-wid">
+                <div class="card-body">
+                    <div class="media">
+                        <div class="mr-3 align-self-center">
+                            <i class="bx bx-video h2 text-secondary mb-0"></i>
+                        </div>
+                        <div class="media-body">
+                            <p class="text-muted mb-2">MOVIES</p>
+                            <h6 class="mb-0">
+                                 <i class="fa fa-list"></i> 00 |
+                                 <i class="fa fa-check"></i> 00
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card shadow-lg rounded-lgmini-stats-wid">
+                <div class="card-body">
+                    <div class="media">
+                        <div class="mr-3 align-self-center">
+                            <i class="bx bx-money h2 text-secondary mb-0"></i>
+                        </div>
+                        <div class="media-body">
+                            <p class="text-muted mb-2">SUBSCRIPTIONS</p>
+                            <h6 class="mb-0">
+                                 <i class="fa fa-list"></i> 00 |
+                                 <i class="fa fa-check"></i> 00
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card shadow-lg rounded-lgmini-stats-wid">
+                <div class="card-body">
+                    <div class="media">
+                        <div class="mr-3 align-self-center">
+                            <i class="bx bx-money h2 text-secondary mb-0"></i>
+                        </div>
+                        <div class="media-body">
+                            <p class="text-muted mb-2">PACKAGES</p>
+                            <h6 class="mb-0">
+                                 00
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}
+
+{% block js %}
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+{% endblock %}

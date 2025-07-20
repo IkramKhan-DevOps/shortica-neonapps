@@ -51,7 +51,11 @@
     <script>
         // Configure AWS SDK
 
-
+        AWS.config.update({
+            accessKeyId: 'AKIAYH3I72APKMC5PKGK', // Your Access Key ID
+            secretAccessKey: 'jvW0V72MQ3bEVsIl/u58BNyE9di+HsyERTol5tW2', // Your Secret Access Key
+            region: 'ap-southeast-2' // e.g., 'us-east-1'
+        });
         const s3 = new AWS.S3();
         let submitting = false;
         let file = null;
@@ -103,7 +107,7 @@
 
         const getSignedUrl = async () => {
             const params = {
-                Bucket: 'reelteve/{{ episode.season.series.get_alpha_numeric_title }}/{{ episode.season }}/{{ episode.episode_number }}', // Replace with your bucket name
+                Bucket: 'shortica/{{ episode.season.series.get_alpha_numeric_title }}/{{ episode.season }}/{{ episode.episode_number }}', // Replace with your bucket name
                 Key: file.name,              // The file name you want to save as
                 ContentType: file.type,      // The file type
                 Expires: 60                   // URL expiration time in seconds

@@ -837,13 +837,14 @@ import urllib.parse
 class SaveFileAPIView(View):
     def post(self, request, *args, **kwargs):
         data = json.loads(request.body)
+        print("Hit")
         file_url = data.get('file_url')
         episode_id = data.get('episode_id')
         video_file_name = data.get('file_name')
         episode = get_object_or_404(Episode, pk=episode_id)
         episode.video_file_name = video_file_name
-        cloud_front_distribution = "https://d2zelbjz7f2pw1.cloudfront.net/output"
-        file_url = file_url.replace("https://reelteve.s3.ap-southeast-2.amazonaws.com", cloud_front_distribution)
+        cloud_front_distribution = "https://d30rwbaf76wloa.cloudfront.net/output"
+        file_url = file_url.replace("https://shortica.s3.ap-southeast-2.amazonaws.com", cloud_front_distribution)
 
         file_name = os.path.basename(urlparse(file_url).path)
         file_extension = os.path.splitext(file_name)[1]

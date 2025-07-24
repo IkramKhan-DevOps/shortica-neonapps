@@ -28,6 +28,7 @@ APPLE_CALLBACK_ADDRESS = f"{BASE_URL}/accounts/apple/login/callback/"
 ROOT_URLCONF = 'core.urls'
 AUTH_USER_MODEL = 'users.User'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+WSGI_APPLICATION = 'core.wsgi.application'
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
@@ -106,7 +107,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     # YOUR MIDDLEWARES
-    "allauth.account.middleware.AccountMiddleware",
 ]
 
 AUTHENTICATION_BACKENDS = (
@@ -132,8 +132,6 @@ TEMPLATES = [
         },
     },
 ]
-
-WSGI_APPLICATION = 'core.wsgi.application'
 
 if ENVIRONMENT == 'server':
     DATABASES = {

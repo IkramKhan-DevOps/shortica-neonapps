@@ -1,0 +1,3219 @@
+[
+  {
+    "model": "drama.category",
+    "pk": 1,
+    "fields": {
+      "name": "Drama",
+      "slug": "drama",
+      "thumbnail": "",
+      "description": "",
+      "created_at": "2025-08-06T11:46:57.025Z",
+      "updated_at": "2025-08-06T11:46:57.025Z"
+    }
+  },
+  {
+    "model": "drama.category",
+    "pk": 2,
+    "fields": {
+      "name": "Action",
+      "slug": "action",
+      "thumbnail": "",
+      "description": "",
+      "created_at": "2025-08-06T11:47:05.715Z",
+      "updated_at": "2025-08-06T11:47:05.715Z"
+    }
+  },
+  {
+    "model": "drama.category",
+    "pk": 3,
+    "fields": {
+      "name": "Romance",
+      "slug": "romance",
+      "thumbnail": "",
+      "description": "",
+      "created_at": "2025-08-06T11:47:16.441Z",
+      "updated_at": "2025-08-06T11:47:16.441Z"
+    }
+  },
+  {
+    "model": "drama.category",
+    "pk": 4,
+    "fields": {
+      "name": "Horror",
+      "slug": "horror",
+      "thumbnail": "",
+      "description": "",
+      "created_at": "2025-08-06T12:40:45.461Z",
+      "updated_at": "2025-08-06T12:40:45.461Z"
+    }
+  },
+  {
+    "model": "drama.tag",
+    "pk": 1,
+    "fields": {
+      "name": "Romance",
+      "slug": "romance",
+      "created_at": "2025-08-06T11:46:34.448Z",
+      "updated_at": "2025-08-06T11:46:34.448Z"
+    }
+  },
+  {
+    "model": "drama.contentrating",
+    "pk": 1,
+    "fields": {
+      "code": "10",
+      "description": null,
+      "created_at": "2025-08-06T11:54:18.935Z",
+      "updated_at": "2025-08-06T11:54:18.935Z"
+    }
+  },
+  {
+    "model": "drama.director",
+    "pk": 1,
+    "fields": {
+      "name": "Mcreelz",
+      "profile_image": "",
+      "biography": "",
+      "date_of_birth": null,
+      "created_at": "2025-08-06T11:55:33.720Z",
+      "updated_at": "2025-08-06T11:55:33.720Z"
+    }
+  },
+  {
+    "model": "drama.dramaseries",
+    "pk": 6,
+    "fields": {
+      "title": "Camouflage",
+      "description": "",
+      "release_date": "2025-08-08",
+      "director": null,
+      "content_rating": null,
+      "rating": null,
+      "poster_image": "dramas/posters/poster02.jpg",
+      "banner_image": "dramas/banners/Camouflage.jpg",
+      "trailer_url": null,
+      "slug": "camouflage",
+      "view_count": 0,
+      "search_count": 0,
+      "is_featured": false,
+      "featured_until": null,
+      "trending_threshold": 100,
+      "created_at": "2025-08-08T12:46:25.198Z",
+      "updated_at": "2025-08-08T12:46:25.198Z"
+    }
+  },
+  {
+    "model": "drama.dramaseries",
+    "pk": 7,
+    "fields": {
+      "title": "Conflicted Hearts",
+      "description": "",
+      "release_date": "2025-08-08",
+      "director": null,
+      "content_rating": null,
+      "rating": null,
+      "poster_image": "dramas/posters/poster.jpg",
+      "banner_image": "dramas/banners/banner.jpg",
+      "trailer_url": null,
+      "slug": "conflicted-hearts",
+      "view_count": 0,
+      "search_count": 0,
+      "is_featured": false,
+      "featured_until": null,
+      "trending_threshold": 100,
+      "created_at": "2025-08-08T12:49:49.691Z",
+      "updated_at": "2025-08-08T12:49:49.691Z"
+    }
+  },
+  {
+    "model": "drama.dramaseries",
+    "pk": 8,
+    "fields": {
+      "title": "Do Not Deceive Me",
+      "description": "",
+      "release_date": "2025-08-08",
+      "director": null,
+      "content_rating": null,
+      "rating": null,
+      "poster_image": "dramas/posters/dndm1small.png",
+      "banner_image": "dramas/banners/dndm2small.png",
+      "trailer_url": null,
+      "slug": "do-not-deceive-me",
+      "view_count": 0,
+      "search_count": 0,
+      "is_featured": false,
+      "featured_until": null,
+      "trending_threshold": 100,
+      "created_at": "2025-08-08T12:52:26.347Z",
+      "updated_at": "2025-08-08T12:52:26.347Z"
+    }
+  },
+  {
+    "model": "drama.dramaseries",
+    "pk": 9,
+    "fields": {
+      "title": "In Her Shadow",
+      "description": "",
+      "release_date": "2025-08-08",
+      "director": null,
+      "content_rating": null,
+      "rating": null,
+      "poster_image": "dramas/posters/01small.jpg",
+      "banner_image": "dramas/banners/02small.jpg",
+      "trailer_url": null,
+      "slug": "in-her-shadow",
+      "view_count": 0,
+      "search_count": 0,
+      "is_featured": false,
+      "featured_until": null,
+      "trending_threshold": 100,
+      "created_at": "2025-08-08T12:54:22.427Z",
+      "updated_at": "2025-08-08T12:54:22.427Z"
+    }
+  },
+  {
+    "model": "drama.dramaseries",
+    "pk": 10,
+    "fields": {
+      "title": "Killer Romance",
+      "description": "",
+      "release_date": "2025-08-08",
+      "director": null,
+      "content_rating": null,
+      "rating": null,
+      "poster_image": "dramas/posters/poster_U7xZhza.jpg",
+      "banner_image": "dramas/banners/banner_0p4HNeF.jpg",
+      "trailer_url": null,
+      "slug": "killer-romance",
+      "view_count": 0,
+      "search_count": 0,
+      "is_featured": false,
+      "featured_until": null,
+      "trending_threshold": 100,
+      "created_at": "2025-08-08T13:07:26.274Z",
+      "updated_at": "2025-08-08T13:07:26.274Z"
+    }
+  },
+  {
+    "model": "drama.dramaseries",
+    "pk": 11,
+    "fields": {
+      "title": "Duty Or Desire",
+      "description": "",
+      "release_date": "2025-08-08",
+      "director": null,
+      "content_rating": null,
+      "rating": null,
+      "poster_image": "dramas/posters/dod500_YcIxOjb.png",
+      "banner_image": "dramas/banners/dod1024.png",
+      "trailer_url": null,
+      "slug": "duty-or-desire",
+      "view_count": 0,
+      "search_count": 0,
+      "is_featured": false,
+      "featured_until": null,
+      "trending_threshold": 100,
+      "created_at": "2025-08-08T13:15:16.753Z",
+      "updated_at": "2025-08-08T13:17:13.255Z"
+    }
+  },
+  {
+    "model": "drama.dramaseries",
+    "pk": 12,
+    "fields": {
+      "title": "The Marriage Contract",
+      "description": "",
+      "release_date": "2025-08-08",
+      "director": null,
+      "content_rating": null,
+      "rating": null,
+      "poster_image": "dramas/posters/tmc500x762.png",
+      "banner_image": "dramas/banners/tmc1024x762.png",
+      "trailer_url": null,
+      "slug": "the-marriage-contract",
+      "view_count": 0,
+      "search_count": 0,
+      "is_featured": false,
+      "featured_until": null,
+      "trending_threshold": 100,
+      "created_at": "2025-08-08T13:20:56.965Z",
+      "updated_at": "2025-08-08T13:21:20.370Z"
+    }
+  },
+  {
+    "model": "drama.dramaseries",
+    "pk": 13,
+    "fields": {
+      "title": "Trial Marriage to a Billionaire",
+      "description": "",
+      "release_date": "2025-08-08",
+      "director": null,
+      "content_rating": null,
+      "rating": null,
+      "poster_image": "dramas/posters/tmtab500x762.png",
+      "banner_image": "dramas/banners/tmtab1024x762.png",
+      "trailer_url": null,
+      "slug": "trial-marriage-to-a-billionaire",
+      "view_count": 0,
+      "search_count": 0,
+      "is_featured": false,
+      "featured_until": null,
+      "trending_threshold": 100,
+      "created_at": "2025-08-08T13:25:04.974Z",
+      "updated_at": "2025-08-08T13:25:25.647Z"
+    }
+  },
+  {
+    "model": "drama.dramaseries",
+    "pk": 14,
+    "fields": {
+      "title": "The Winter Veil",
+      "description": "",
+      "release_date": "2025-08-08",
+      "director": null,
+      "content_rating": null,
+      "rating": null,
+      "poster_image": "dramas/posters/twv500x762.png",
+      "banner_image": "dramas/banners/twv500x762.png",
+      "trailer_url": null,
+      "slug": "the-winter-veil",
+      "view_count": 0,
+      "search_count": 0,
+      "is_featured": false,
+      "featured_until": null,
+      "trending_threshold": 100,
+      "created_at": "2025-08-08T13:45:01.010Z",
+      "updated_at": "2025-08-08T13:47:53.059Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriestag",
+    "pk": 1,
+    "fields": {
+      "drama_series": 6,
+      "tag": 1,
+      "created_at": "2025-08-08T12:47:24.075Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriestag",
+    "pk": 2,
+    "fields": {
+      "drama_series": 7,
+      "tag": 1,
+      "created_at": "2025-08-08T12:49:58.682Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriestag",
+    "pk": 3,
+    "fields": {
+      "drama_series": 8,
+      "tag": 1,
+      "created_at": "2025-08-08T12:52:40.386Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriestag",
+    "pk": 4,
+    "fields": {
+      "drama_series": 9,
+      "tag": 1,
+      "created_at": "2025-08-08T12:55:06.309Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriestag",
+    "pk": 6,
+    "fields": {
+      "drama_series": 10,
+      "tag": 1,
+      "created_at": "2025-08-08T13:07:37.690Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriestag",
+    "pk": 7,
+    "fields": {
+      "drama_series": 11,
+      "tag": 1,
+      "created_at": "2025-08-08T13:16:10.854Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriestag",
+    "pk": 8,
+    "fields": {
+      "drama_series": 12,
+      "tag": 1,
+      "created_at": "2025-08-08T13:21:10.501Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriestag",
+    "pk": 9,
+    "fields": {
+      "drama_series": 13,
+      "tag": 1,
+      "created_at": "2025-08-08T13:25:16.379Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriestag",
+    "pk": 10,
+    "fields": {
+      "drama_series": 14,
+      "tag": 1,
+      "created_at": "2025-08-08T13:45:11.303Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriescategory",
+    "pk": 1,
+    "fields": {
+      "drama_series": 6,
+      "category": 3,
+      "created_at": "2025-08-08T12:47:19.519Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriescategory",
+    "pk": 2,
+    "fields": {
+      "drama_series": 7,
+      "category": 3,
+      "created_at": "2025-08-08T12:49:55.249Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriescategory",
+    "pk": 3,
+    "fields": {
+      "drama_series": 8,
+      "category": 3,
+      "created_at": "2025-08-08T12:52:36.728Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriescategory",
+    "pk": 4,
+    "fields": {
+      "drama_series": 9,
+      "category": 3,
+      "created_at": "2025-08-08T12:55:03.110Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriescategory",
+    "pk": 8,
+    "fields": {
+      "drama_series": 10,
+      "category": 2,
+      "created_at": "2025-08-08T13:07:34.249Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriescategory",
+    "pk": 9,
+    "fields": {
+      "drama_series": 11,
+      "category": 1,
+      "created_at": "2025-08-08T13:16:07.691Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriescategory",
+    "pk": 10,
+    "fields": {
+      "drama_series": 12,
+      "category": 1,
+      "created_at": "2025-08-08T13:21:06.488Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriescategory",
+    "pk": 11,
+    "fields": {
+      "drama_series": 13,
+      "category": 3,
+      "created_at": "2025-08-08T13:25:12.775Z"
+    }
+  },
+  {
+    "model": "drama.dramaseriescategory",
+    "pk": 12,
+    "fields": {
+      "drama_series": 14,
+      "category": 4,
+      "created_at": "2025-08-08T13:45:08.341Z"
+    }
+  },
+  {
+    "model": "drama.season",
+    "pk": 6,
+    "fields": {
+      "series": 6,
+      "season_number": 1,
+      "release_date": "2025-08-08",
+      "description": "",
+      "created_at": "2025-08-08T12:47:31.454Z",
+      "updated_at": "2025-08-08T12:47:31.454Z"
+    }
+  },
+  {
+    "model": "drama.season",
+    "pk": 7,
+    "fields": {
+      "series": 7,
+      "season_number": 1,
+      "release_date": "2025-08-08",
+      "description": "",
+      "created_at": "2025-08-08T12:50:06.406Z",
+      "updated_at": "2025-08-08T12:50:06.406Z"
+    }
+  },
+  {
+    "model": "drama.season",
+    "pk": 8,
+    "fields": {
+      "series": 8,
+      "season_number": 1,
+      "release_date": "2025-08-08",
+      "description": "",
+      "created_at": "2025-08-08T12:52:47.701Z",
+      "updated_at": "2025-08-08T12:52:47.701Z"
+    }
+  },
+  {
+    "model": "drama.season",
+    "pk": 9,
+    "fields": {
+      "series": 9,
+      "season_number": 1,
+      "release_date": "2025-08-08",
+      "description": "",
+      "created_at": "2025-08-08T12:54:59.120Z",
+      "updated_at": "2025-08-08T12:54:59.120Z"
+    }
+  },
+  {
+    "model": "drama.season",
+    "pk": 10,
+    "fields": {
+      "series": 10,
+      "season_number": 1,
+      "release_date": "2025-08-08",
+      "description": "",
+      "created_at": "2025-08-08T13:07:46.949Z",
+      "updated_at": "2025-08-08T13:07:46.949Z"
+    }
+  },
+  {
+    "model": "drama.season",
+    "pk": 11,
+    "fields": {
+      "series": 11,
+      "season_number": 1,
+      "release_date": "2025-08-08",
+      "description": "",
+      "created_at": "2025-08-08T13:17:28.147Z",
+      "updated_at": "2025-08-08T13:17:28.147Z"
+    }
+  },
+  {
+    "model": "drama.season",
+    "pk": 12,
+    "fields": {
+      "series": 12,
+      "season_number": 1,
+      "release_date": "2025-08-08",
+      "description": "",
+      "created_at": "2025-08-08T13:21:33.412Z",
+      "updated_at": "2025-08-08T13:21:33.412Z"
+    }
+  },
+  {
+    "model": "drama.season",
+    "pk": 13,
+    "fields": {
+      "series": 13,
+      "season_number": 1,
+      "release_date": "2025-08-08",
+      "description": "",
+      "created_at": "2025-08-08T13:25:36.573Z",
+      "updated_at": "2025-08-08T13:25:36.573Z"
+    }
+  },
+  {
+    "model": "drama.season",
+    "pk": 14,
+    "fields": {
+      "series": 14,
+      "season_number": 1,
+      "release_date": "2025-08-08",
+      "description": "",
+      "created_at": "2025-08-08T13:48:04.382Z",
+      "updated_at": "2025-08-08T13:48:04.382Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 9,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 1,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:03",
+      "video_file_name": "01_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/1/01_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:47:59.593Z",
+      "updated_at": "2025-08-08T12:49:43.214Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 10,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 2,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:15",
+      "video_file_name": "02_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/2/02_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:48:13.654Z",
+      "updated_at": "2025-08-08T12:50:26.501Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 11,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 3,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "03_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/3/03_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:48:28.312Z",
+      "updated_at": "2025-08-08T12:51:24.842Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 12,
+    "fields": {
+      "title": "Conflicted Hearts",
+      "season": 7,
+      "episode_number": 1,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:48",
+      "video_file_name": "01_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Conflicted-Hearts/Season%201/1/01_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:50:27.538Z",
+      "updated_at": "2025-08-08T12:53:26.955Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 13,
+    "fields": {
+      "title": "Conflicted Hearts",
+      "season": 7,
+      "episode_number": 2,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:02:20",
+      "video_file_name": "02_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Conflicted-Hearts/Season%201/2/02_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:50:52.848Z",
+      "updated_at": "2025-08-08T12:54:10.353Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 14,
+    "fields": {
+      "title": "Conflicted Hearts",
+      "season": 7,
+      "episode_number": 3,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:44",
+      "video_file_name": "03_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Conflicted-Hearts/Season%201/3/03_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:51:14.276Z",
+      "updated_at": "2025-08-08T12:53:57.487Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 15,
+    "fields": {
+      "title": "Do Not Deceive Me",
+      "season": 8,
+      "episode_number": 1,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:13",
+      "video_file_name": "01_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Do-Not-Deceive-Me/Season%201/1/01_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:53:06.941Z",
+      "updated_at": "2025-08-08T12:55:51.451Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 16,
+    "fields": {
+      "title": "Do Not Deceive Me",
+      "season": 8,
+      "episode_number": 2,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:12",
+      "video_file_name": "02_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Do-Not-Deceive-Me/Season%201/2/02_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:53:21.367Z",
+      "updated_at": "2025-08-08T12:56:00.759Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 17,
+    "fields": {
+      "title": "Do Not Deceive Me",
+      "season": 8,
+      "episode_number": 3,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:43",
+      "video_file_name": "03_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Do-Not-Deceive-Me/Season%201/3/03_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:53:35.722Z",
+      "updated_at": "2025-08-08T13:11:35.328Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 18,
+    "fields": {
+      "title": "In Her Shadow",
+      "season": 9,
+      "episode_number": 1,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:26",
+      "video_file_name": "01_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/In-Her-Shadow/Season%201/1/01_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:55:25.028Z",
+      "updated_at": "2025-08-08T13:11:23.514Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 19,
+    "fields": {
+      "title": "In Her Shadow",
+      "season": 9,
+      "episode_number": 2,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:39",
+      "video_file_name": "02_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/In-Her-Shadow/Season%201/2/02_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:55:39.716Z",
+      "updated_at": "2025-08-08T13:12:53.449Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 20,
+    "fields": {
+      "title": "In Her Shadow",
+      "season": 9,
+      "episode_number": 3,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:43",
+      "video_file_name": "03_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/In-Her-Shadow/Season%201/3/03_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T12:55:53.934Z",
+      "updated_at": "2025-08-08T13:11:58.588Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 21,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 1,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:18",
+      "video_file_name": "01_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/1/01_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:08:09.246Z",
+      "updated_at": "2025-08-08T13:16:05.673Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 22,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 2,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:51",
+      "video_file_name": "02_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/2/02_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:08:24.141Z",
+      "updated_at": "2025-08-08T13:19:03.110Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 23,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 3,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:25",
+      "video_file_name": "03_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/3/03_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:08:38.813Z",
+      "updated_at": "2025-08-08T13:15:51.825Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 24,
+    "fields": {
+      "title": "Duty Or Desire",
+      "season": 11,
+      "episode_number": 1,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:54",
+      "video_file_name": "01_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Duty-Or-Desire/Season%201/1/01_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:17:47.612Z",
+      "updated_at": "2025-08-08T13:21:56.353Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 25,
+    "fields": {
+      "title": "Duty Or Desire",
+      "season": 11,
+      "episode_number": 2,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:49",
+      "video_file_name": "02_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Duty-Or-Desire/Season%201/2/02_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:18:01.466Z",
+      "updated_at": "2025-08-08T13:24:04.898Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 26,
+    "fields": {
+      "title": "Duty Or Desire",
+      "season": 11,
+      "episode_number": 3,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:16",
+      "video_file_name": "03_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Duty-Or-Desire/Season%201/3/03_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:18:23.849Z",
+      "updated_at": "2025-08-08T13:31:35.263Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 27,
+    "fields": {
+      "title": "The Marriage Contract",
+      "season": 12,
+      "episode_number": 1,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:15",
+      "video_file_name": "01_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/The-Marriage-Contract/Season%201/1/01_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:21:56.808Z",
+      "updated_at": "2025-08-08T13:25:44.589Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 28,
+    "fields": {
+      "title": "The Marriage Contract",
+      "season": 12,
+      "episode_number": 2,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:40",
+      "video_file_name": "02_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/The-Marriage-Contract/Season%201/2/02_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:22:12.628Z",
+      "updated_at": "2025-08-08T13:34:24.505Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 29,
+    "fields": {
+      "title": "The Marriage Contract",
+      "season": 12,
+      "episode_number": 3,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:47",
+      "video_file_name": "03_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/The-Marriage-Contract/Season%201/3/03_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:22:26.722Z",
+      "updated_at": "2025-08-08T13:33:30.707Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 30,
+    "fields": {
+      "title": "Trial Marriage to a Billionaire",
+      "season": 13,
+      "episode_number": 1,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:49",
+      "video_file_name": "01_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Trial-Marriage-to-a-Billionaire/Season%201/1/01_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:25:58.439Z",
+      "updated_at": "2025-08-08T13:37:05.493Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 31,
+    "fields": {
+      "title": "Trial Marriage to a Billionaire",
+      "season": 13,
+      "episode_number": 2,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:29",
+      "video_file_name": "02_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Trial-Marriage-to-a-Billionaire/Season%201/2/02_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:26:12.933Z",
+      "updated_at": "2025-08-08T13:36:46.641Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 32,
+    "fields": {
+      "title": "Trial Marriage to a Billionaire",
+      "season": 13,
+      "episode_number": 3,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:23",
+      "video_file_name": "03_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Trial-Marriage-to-a-Billionaire/Season%201/3/03_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:26:30.168Z",
+      "updated_at": "2025-08-08T13:38:14.820Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 33,
+    "fields": {
+      "title": "The Winter Veil",
+      "season": 14,
+      "episode_number": 1,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:01",
+      "video_file_name": "01_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/The-Winter-Veil/Season%201/1/01_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:48:27.766Z",
+      "updated_at": "2025-08-08T13:49:57.617Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 34,
+    "fields": {
+      "title": "The Winter Veil",
+      "season": 14,
+      "episode_number": 2,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:02:10",
+      "video_file_name": "02_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/The-Winter-Veil/Season%201/2/02_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:48:40.740Z",
+      "updated_at": "2025-08-08T13:52:57.067Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 35,
+    "fields": {
+      "title": "The Winter Veil",
+      "season": 14,
+      "episode_number": 3,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:42",
+      "video_file_name": "03_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/The-Winter-Veil/Season%201/3/03_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:48:53.886Z",
+      "updated_at": "2025-08-08T13:50:38.941Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 36,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 4,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:24",
+      "video_file_name": "04_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/4/04_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:53:52.510Z",
+      "updated_at": "2025-08-08T13:55:28.295Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 37,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 5,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:03",
+      "video_file_name": "05_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/5/05_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T13:54:10.991Z",
+      "updated_at": "2025-08-08T13:55:31.071Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 38,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 6,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "06_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/6/06_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:05:43.576Z",
+      "updated_at": "2025-08-08T14:09:40.488Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 39,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 7,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:02",
+      "video_file_name": "07_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/7/07_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:05:59.055Z",
+      "updated_at": "2025-08-08T14:11:53.513Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 40,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 8,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:01",
+      "video_file_name": "08_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/8/08_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:06:16.968Z",
+      "updated_at": "2025-08-08T14:12:42.180Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 41,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 9,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:09",
+      "video_file_name": "09_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/9/09_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:06:39.163Z",
+      "updated_at": "2025-08-08T14:13:15.464Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 42,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 10,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:10",
+      "video_file_name": "10_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/10/10_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:06:54.416Z",
+      "updated_at": "2025-08-08T14:14:03.769Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 43,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 11,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:16",
+      "video_file_name": "11_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/11/11_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:08:18.359Z",
+      "updated_at": "2025-08-08T14:16:48.546Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 44,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 12,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:17",
+      "video_file_name": "12_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/12/12_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:08:31.800Z",
+      "updated_at": "2025-08-08T14:16:54.748Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 45,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 13,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:41",
+      "video_file_name": "13_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/13/13_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:08:51.843Z",
+      "updated_at": "2025-08-08T14:20:09.395Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 46,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 14,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:58",
+      "video_file_name": "14_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/14/14_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:09:11.864Z",
+      "updated_at": "2025-08-08T14:17:37.366Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 47,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 15,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:20",
+      "video_file_name": "15_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/15/15_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:09:26.930Z",
+      "updated_at": "2025-08-08T14:19:13.737Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 48,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 16,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:24",
+      "video_file_name": "16_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/16/16_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:09:43.419Z",
+      "updated_at": "2025-08-08T14:22:58.799Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 49,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 17,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:04",
+      "video_file_name": "17_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/17/17_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:10:18.267Z",
+      "updated_at": "2025-08-08T14:23:04.305Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 50,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 18,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:42",
+      "video_file_name": "18_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/18/18_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:10:35.074Z",
+      "updated_at": "2025-08-09T09:02:23.632Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 51,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 19,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:01",
+      "video_file_name": "19_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/19/19_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:11:17.100Z",
+      "updated_at": "2025-08-09T09:02:45.134Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 52,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 20,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:21",
+      "video_file_name": "20_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/20/20_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:11:46.514Z",
+      "updated_at": "2025-08-09T09:02:39.637Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 53,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 21,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:01",
+      "video_file_name": "21_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/21/21_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:12:05.003Z",
+      "updated_at": "2025-08-09T09:03:08.935Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 54,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 22,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:12",
+      "video_file_name": "22_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/22/22_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:12:28.984Z",
+      "updated_at": "2025-08-09T09:03:52.361Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 55,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 23,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:05",
+      "video_file_name": "23_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/23/23_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:12:54.955Z",
+      "updated_at": "2025-08-09T09:03:55.340Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 56,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 24,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:08",
+      "video_file_name": "24_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/24/24_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:13:12.235Z",
+      "updated_at": "2025-08-09T09:03:37.376Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 57,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 25,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:19",
+      "video_file_name": "25_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/25/25_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:13:42.105Z",
+      "updated_at": "2025-08-09T09:03:59.629Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 58,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 26,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:03",
+      "video_file_name": "26_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/26/26_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:14:01.084Z",
+      "updated_at": "2025-08-09T09:05:40.793Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 59,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 27,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:22",
+      "video_file_name": "27_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/27/27_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:14:20.097Z",
+      "updated_at": "2025-08-09T09:06:25.544Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 60,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 28,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:23",
+      "video_file_name": "28_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/28/28_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:14:37.284Z",
+      "updated_at": "2025-08-09T09:06:37.246Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 61,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 29,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:27",
+      "video_file_name": "29_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/29/29_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:15:50.645Z",
+      "updated_at": "2025-08-09T09:06:29.130Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 62,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 30,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "30_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/30/30_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:16:07.717Z",
+      "updated_at": "2025-08-09T09:06:14.081Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 63,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 31,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:18",
+      "video_file_name": "31_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/31/31_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:16:44.672Z",
+      "updated_at": "2025-08-09T09:11:13.033Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 64,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 32,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:14",
+      "video_file_name": "32_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/32/32_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:17:01.769Z",
+      "updated_at": "2025-08-09T09:11:28.855Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 65,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 33,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "33_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/33/33_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:17:34.299Z",
+      "updated_at": "2025-08-09T09:11:30.299Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 66,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 34,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:25",
+      "video_file_name": "34_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/34/34_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:17:56.023Z",
+      "updated_at": "2025-08-09T09:11:35.914Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 67,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 35,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "35_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/35/35_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:18:25.223Z",
+      "updated_at": "2025-08-09T09:11:21.655Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 68,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 36,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:01",
+      "video_file_name": "36_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/36/36_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:18:55.561Z",
+      "updated_at": "2025-08-09T09:42:50.197Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 69,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 37,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:17",
+      "video_file_name": "37_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/37/37_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:19:19.375Z",
+      "updated_at": "2025-08-09T09:43:36.755Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 70,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 38,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:26",
+      "video_file_name": "38_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/38/38_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:19:46.654Z",
+      "updated_at": "2025-08-09T09:43:20.929Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 71,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 39,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "39_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/39/39_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:20:14.551Z",
+      "updated_at": "2025-08-09T09:43:20.619Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 72,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 40,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:16",
+      "video_file_name": "40_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/40/40_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:21:52.115Z",
+      "updated_at": "2025-08-09T09:43:16.719Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 73,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 41,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:11",
+      "video_file_name": "41_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/41/41_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:22:08.043Z",
+      "updated_at": "2025-08-09T09:44:58.163Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 74,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 42,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:16",
+      "video_file_name": "42_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/42/42_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:22:20.387Z",
+      "updated_at": "2025-08-09T09:45:48.913Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 75,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 43,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "43_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/43/43_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:22:37.161Z",
+      "updated_at": "2025-08-09T09:45:23.575Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 76,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 44,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:30",
+      "video_file_name": "44_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/44/44_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:22:52.054Z",
+      "updated_at": "2025-08-09T09:45:30.266Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 77,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 45,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:05",
+      "video_file_name": "45_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/45/45_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:23:13.715Z",
+      "updated_at": "2025-08-09T09:45:40.545Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 78,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 46,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "46_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/46/46_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:23:29.337Z",
+      "updated_at": "2025-08-09T09:46:27.026Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 79,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 47,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:26",
+      "video_file_name": "47_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/47/47_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:23:57.707Z",
+      "updated_at": "2025-08-09T09:47:34.617Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 80,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 48,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:24",
+      "video_file_name": "48_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/48/48_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:24:21.559Z",
+      "updated_at": "2025-08-09T09:46:45.445Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 81,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 49,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:15",
+      "video_file_name": "49_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/49/49_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:24:35.086Z",
+      "updated_at": "2025-08-09T09:47:10.964Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 82,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 50,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:12",
+      "video_file_name": "50_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/50/50_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:25:08.912Z",
+      "updated_at": "2025-08-09T09:47:02.349Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 83,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 51,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "51_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/51/51_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:25:22.291Z",
+      "updated_at": "2025-08-09T09:47:59.207Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 84,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 52,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:21",
+      "video_file_name": "52_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/52/52_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:25:40.041Z",
+      "updated_at": "2025-08-09T09:48:41.956Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 85,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 53,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "53_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/53/53_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:26:09.883Z",
+      "updated_at": "2025-08-09T09:48:48.129Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 86,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 54,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "54_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/54/54_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:26:26.290Z",
+      "updated_at": "2025-08-09T09:48:12.556Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 87,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 55,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:26",
+      "video_file_name": "55_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/55/55_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:26:45.804Z",
+      "updated_at": "2025-08-09T09:48:53.731Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 88,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 56,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:00",
+      "video_file_name": "56_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/56/56_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:27:33.277Z",
+      "updated_at": "2025-08-09T09:49:51.347Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 89,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 57,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:03",
+      "video_file_name": "57_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/57/57_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:27:51.098Z",
+      "updated_at": "2025-08-09T09:50:33.194Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 90,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 58,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:12",
+      "video_file_name": "58_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/58/58_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:28:06.705Z",
+      "updated_at": "2025-08-09T09:50:28.499Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 91,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 59,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:25",
+      "video_file_name": "59_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/59/59_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:28:25.104Z",
+      "updated_at": "2025-08-09T09:50:40.791Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 92,
+    "fields": {
+      "title": "Camouflage",
+      "season": 6,
+      "episode_number": 60,
+      "description": "",
+      "release_date": "2025-08-08",
+      "duration": "00:01:30",
+      "video_file_name": "60_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Camouflage/Season%201/60/60_1.m3u8",
+      "is_free": false,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-08T14:28:42.436Z",
+      "updated_at": "2025-08-09T09:50:25.404Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 93,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 4,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:19",
+      "video_file_name": "04_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/4/04_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:56:29.932Z",
+      "updated_at": "2025-08-09T09:58:32.805Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 94,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 5,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:53",
+      "video_file_name": "05_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/5/05_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:56:47.006Z",
+      "updated_at": "2025-08-09T09:59:08.896Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 95,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 6,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:00",
+      "video_file_name": "06_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/6/06_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:57:03.075Z",
+      "updated_at": "2025-08-09T10:00:06.060Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 96,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 7,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:32",
+      "video_file_name": "07_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/7/07_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:57:21.244Z",
+      "updated_at": "2025-08-09T10:00:57.814Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 97,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 8,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:34",
+      "video_file_name": "08_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/8/08_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:57:35.052Z",
+      "updated_at": "2025-08-09T10:00:41.253Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 98,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 9,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:08",
+      "video_file_name": "09_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/9/09_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:57:48.585Z",
+      "updated_at": "2025-08-09T10:00:38.092Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 99,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 10,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:00",
+      "video_file_name": "10_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/10/10_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:58:10.314Z",
+      "updated_at": "2025-08-09T10:00:57.322Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 100,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 11,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:10",
+      "video_file_name": "11_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/11/11_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:58:42.339Z",
+      "updated_at": "2025-08-09T19:53:19.474Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 101,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 12,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:15",
+      "video_file_name": "12_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/12/12_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:58:57.381Z",
+      "updated_at": "2025-08-09T19:54:16.860Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 102,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 13,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:32",
+      "video_file_name": "13_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/13/13_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:59:11.395Z",
+      "updated_at": "2025-08-09T19:54:19.317Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 103,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 14,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:10",
+      "video_file_name": "14_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/14/14_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:59:26.263Z",
+      "updated_at": "2025-08-09T19:53:38.354Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 104,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 15,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:10",
+      "video_file_name": "15_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/15/15_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T09:59:40.253Z",
+      "updated_at": "2025-08-09T19:54:19.365Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 105,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 16,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:35",
+      "video_file_name": "16_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/16/16_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:53:57.349Z",
+      "updated_at": "2025-08-09T19:56:20.615Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 106,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 17,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:24",
+      "video_file_name": "17_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/17/17_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:54:16.193Z",
+      "updated_at": "2025-08-09T19:56:42.337Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 107,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 18,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:40",
+      "video_file_name": "18_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/18/18_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:54:37.514Z",
+      "updated_at": "2025-08-09T19:56:20.538Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 108,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 19,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:44",
+      "video_file_name": "19_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/19/19_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:54:52.163Z",
+      "updated_at": "2025-08-09T19:56:32.165Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 109,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 20,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:40",
+      "video_file_name": "20_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/20/20_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:55:14.906Z",
+      "updated_at": "2025-08-09T19:57:35.071Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 110,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 21,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:32",
+      "video_file_name": "21_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/21/21_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:55:53.356Z",
+      "updated_at": "2025-08-09T19:58:31.451Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 111,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 22,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:08",
+      "video_file_name": "22_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/22/22_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:56:13.737Z",
+      "updated_at": "2025-08-09T19:58:55.955Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 112,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 23,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:01",
+      "video_file_name": "23_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/23/23_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:56:28.390Z",
+      "updated_at": "2025-08-09T19:58:39.024Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 113,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 24,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:12",
+      "video_file_name": "24_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/24/24_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:56:40.055Z",
+      "updated_at": "2025-08-09T19:58:17.677Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 114,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 25,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:21",
+      "video_file_name": "25_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/25/25_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:56:52.674Z",
+      "updated_at": "2025-08-09T19:59:00.771Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 115,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 26,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:00",
+      "video_file_name": "26_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/26/26_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:57:10.890Z",
+      "updated_at": "2025-08-09T19:59:40.597Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 116,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 27,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:28",
+      "video_file_name": "27_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/27/27_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:57:30.304Z",
+      "updated_at": "2025-08-09T20:00:21.135Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 117,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 28,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:16",
+      "video_file_name": "28_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/28/28_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:57:43.269Z",
+      "updated_at": "2025-08-09T20:00:17.608Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 118,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 29,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:16",
+      "video_file_name": "29_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/29/29_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:58:25.246Z",
+      "updated_at": "2025-08-09T20:00:27.148Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 119,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 30,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:14",
+      "video_file_name": "30_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/30/30_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:58:38.366Z",
+      "updated_at": "2025-08-09T20:00:27.069Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 120,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 31,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:00",
+      "video_file_name": "31_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/31/31_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:58:56.469Z",
+      "updated_at": "2025-08-09T20:01:50.104Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 121,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 32,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:40",
+      "video_file_name": "32_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/32/32_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:59:09.668Z",
+      "updated_at": "2025-08-09T20:02:59.022Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 122,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 33,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:28",
+      "video_file_name": "33_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/33/33_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T19:59:52.587Z",
+      "updated_at": "2025-08-09T20:02:44.721Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 123,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 34,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:19",
+      "video_file_name": "34_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/34/34_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:00:05.074Z",
+      "updated_at": "2025-08-09T20:02:10.565Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 124,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 35,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:04",
+      "video_file_name": "35_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/35/35_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:00:16.943Z",
+      "updated_at": "2025-08-09T20:02:25.463Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 125,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 36,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:09",
+      "video_file_name": "36_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/36/36_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:00:33.475Z",
+      "updated_at": "2025-08-09T20:04:39.278Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 126,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 37,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:21",
+      "video_file_name": "37_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/37/37_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:00:47.128Z",
+      "updated_at": "2025-08-09T20:04:59.409Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 127,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 38,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:17",
+      "video_file_name": "38_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/38/38_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:01:00.148Z",
+      "updated_at": "2025-08-09T20:04:46.407Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 128,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 39,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:11",
+      "video_file_name": "39_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/39/39_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:01:13.611Z",
+      "updated_at": "2025-08-09T20:04:57.432Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 129,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 40,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:25",
+      "video_file_name": "40_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/40/40_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:01:28.385Z",
+      "updated_at": "2025-08-09T20:05:05.156Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 130,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 41,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:00",
+      "video_file_name": "41_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/41/41_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:02:22.197Z",
+      "updated_at": "2025-08-09T20:06:45.819Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 131,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 42,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:07",
+      "video_file_name": "42_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/42/42_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:02:36.770Z",
+      "updated_at": "2025-08-09T20:06:37.623Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 132,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 43,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:19",
+      "video_file_name": "43_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/43/43_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:02:56.066Z",
+      "updated_at": "2025-08-09T20:06:44.531Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 133,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 44,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:14",
+      "video_file_name": "44_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/44/44_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:03:18.212Z",
+      "updated_at": "2025-08-09T20:06:47.605Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 134,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 45,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:09",
+      "video_file_name": "45_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/45/45_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:03:31.772Z",
+      "updated_at": "2025-08-09T20:06:48.030Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 135,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 46,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:00",
+      "video_file_name": "46_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/46/46_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:04:31.211Z",
+      "updated_at": "2025-08-09T20:10:35.654Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 136,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 47,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:23",
+      "video_file_name": "47_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/47/47_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:04:44.838Z",
+      "updated_at": "2025-08-09T20:10:01.293Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 137,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 48,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:00",
+      "video_file_name": "48_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/48/48_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:05:13.597Z",
+      "updated_at": "2025-08-09T20:10:38.917Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 138,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 49,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:23",
+      "video_file_name": "49_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/49/49_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:05:27.931Z",
+      "updated_at": "2025-08-09T20:10:50.418Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 139,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 50,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:08",
+      "video_file_name": "50_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/50/50_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:07:11.291Z",
+      "updated_at": "2025-08-09T20:10:10.812Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 140,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 51,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:00",
+      "video_file_name": "51_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/51/51_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:07:35.011Z",
+      "updated_at": "2025-08-09T20:11:47.025Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 141,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 52,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:01",
+      "video_file_name": "52_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/52/52_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:07:49.583Z",
+      "updated_at": "2025-08-09T20:11:32.986Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 142,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 53,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:48",
+      "video_file_name": "53_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/53/53_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:08:04.690Z",
+      "updated_at": "2025-08-09T20:12:14.265Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 143,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 54,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:04",
+      "video_file_name": "54_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/54/54_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:08:19.923Z",
+      "updated_at": "2025-08-09T20:12:13.104Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 144,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 55,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:00",
+      "video_file_name": "55_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/55/55_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:08:39.065Z",
+      "updated_at": "2025-08-09T20:11:39.165Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 145,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 56,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:23",
+      "video_file_name": "56_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/56/56_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:08:53.420Z",
+      "updated_at": "2025-08-09T20:12:56.204Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 146,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 57,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:34",
+      "video_file_name": "57_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/57/57_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:09:07.103Z",
+      "updated_at": "2025-08-09T20:13:12.887Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 147,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 58,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:03",
+      "video_file_name": "58_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/58/58_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:09:21.365Z",
+      "updated_at": "2025-08-09T20:13:02.932Z"
+    }
+  },
+  {
+    "model": "drama.episode",
+    "pk": 148,
+    "fields": {
+      "title": "Killer Romance",
+      "season": 10,
+      "episode_number": 59,
+      "description": "",
+      "release_date": "2025-08-09",
+      "duration": "00:01:05",
+      "video_file_name": "59_1.mp4",
+      "video_file": "https://d30rwbaf76wloa.cloudfront.net/output/Killer-Romance/Season%201/59/59_1.m3u8",
+      "is_free": true,
+      "view_count": 0,
+      "is_active": true,
+      "created_at": "2025-08-09T20:09:34.683Z",
+      "updated_at": "2025-08-09T20:13:10.104Z"
+    }
+  }
+]

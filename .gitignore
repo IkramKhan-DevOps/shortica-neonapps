@@ -209,4 +209,5 @@ __marimo__/
 .idea/
 media/
 migrations/
-
+myprojectenv/
+assets/

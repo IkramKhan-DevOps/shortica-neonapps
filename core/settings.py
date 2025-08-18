@@ -134,6 +134,7 @@ TEMPLATES = [
 ]
 
 if ENVIRONMENT == 'server':
+    print("RDS")
     DATABASES = {
         'default': {
             'ENGINE': env('DB_ENGINE'),
@@ -145,6 +146,7 @@ if ENVIRONMENT == 'server':
         }
     }
 else:
+    print("SQL")
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
